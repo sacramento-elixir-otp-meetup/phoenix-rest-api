@@ -6,8 +6,18 @@ defmodule PhoenixRestApi.BeveragesTest do
   describe "beers" do
     alias PhoenixRestApi.Beverages.Beer
 
-    @valid_attrs %{alcohol: "some alcohol", brand: "some brand", name: "some name", style: "some style"}
-    @update_attrs %{alcohol: "some updated alcohol", brand: "some updated brand", name: "some updated name", style: "some updated style"}
+    @valid_attrs %{
+      alcohol: "some alcohol",
+      brand: "some brand",
+      name: "some name",
+      style: "some style"
+    }
+    @update_attrs %{
+      alcohol: "some updated alcohol",
+      brand: "some updated brand",
+      name: "some updated name",
+      style: "some updated style"
+    }
     @invalid_attrs %{alcohol: nil, brand: nil, name: nil, style: nil}
 
     def beer_fixture(attrs \\ %{}) do

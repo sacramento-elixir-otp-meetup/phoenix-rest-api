@@ -11,10 +11,6 @@ defmodule PhoenixRestApiWeb.BeerView do
   end
 
   def render("beer.json", %{beer: beer}) do
-    %{id: beer.id,
-      name: beer.name,
-      brand: beer.brand,
-      style: beer.style,
-      alcohol: beer.alcohol}
+    %{id: beer.id, name: beer.name, brand: beer.brand, style: beer.style, alcohol: beer.alcohol}
   end
 end

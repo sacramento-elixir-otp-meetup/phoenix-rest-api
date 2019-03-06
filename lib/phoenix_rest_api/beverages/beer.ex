@@ -2,7 +2,6 @@ defmodule PhoenixRestApi.Beverages.Beer do
   use Ecto.Schema
   import Ecto.Changeset
 
-
   schema "beers" do
     field :alcohol, :string
     field :brand, :string
