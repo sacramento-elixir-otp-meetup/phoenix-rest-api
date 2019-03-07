@@ -10,6 +10,5 @@ defmodule PhoenixRestApi.Repo.Migrations.CreateBeers do
 
       timestamps()
     end
-
   end
 end

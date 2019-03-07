@@ -28,6 +28,12 @@ Remember to update your repository by running migrations:
 
 ```
 
+## Seed db and seed data
+
+```sh
+$ mix ecto.reset
+```
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
