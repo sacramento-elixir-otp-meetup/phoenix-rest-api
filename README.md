@@ -3,8 +3,11 @@
 ## Getting Started
 ```sh
 $ git clone https://github.com/sacramento-elixir-otp-meetup/phoenix-rest-api.git
+
 $ cd phoenix-rest-api
+
 $ mix deps.get
+
 $ mix test
 ```
 
