@@ -8,6 +8,8 @@ $ cd phoenix-rest-api
 
 $ mix deps.get
 
+$ mix ecto.setup
+
 $ mix test
 ```
 
